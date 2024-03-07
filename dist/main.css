@@ -105,6 +105,10 @@ ul {
   outline: inherit;
   cursor: pointer;
   background-color: hsl(150, 100%, 66%);
+  transition: all 0.1s ease-in-out;
+}
+.card .containerForButton button:hover {
+  box-shadow: 0 0 30px hsl(150, 100%, 66%);
 }
 
 @media screen and (max-width: 600px) {
