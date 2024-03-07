@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin: 15px;
+    padding: 40px 20px 0 20px;
+    border-radius: 10px;
+    .adviceNumber {
+      font-size: 11px;
+    }
+    .adviceText {
+      font-size: 24px;
+      margin-bottom: 25px;
+    }
+    .divider {
+      display: none;
+    }
+    .dividerMob {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 31px;
+    }
+    .containerForButton {
+      button {
+        margin-bottom: -32px;
+      }
+    }
+  }
+}

@@ -58,4 +58,87 @@ ul {
   color: hsl(228, 45%, 44%);
 }
 
+.card {
+  position: relative;
+  width: 540px;
+  padding: 50px 40px 0 40px;
+  border-radius: 15px;
+  background-color: hsl(217, 19%, 24%);
+}
+.card .adviceNumber {
+  margin-bottom: 25px;
+  font-size: 13px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.32em;
+  color: hsl(150, 100%, 66%);
+}
+.card .adviceText {
+  display: block;
+  margin-bottom: 40px;
+  font-weight: 800;
+  text-align: center;
+  letter-spacing: -0.01em;
+  color: hsl(193, 38%, 86%);
+}
+.card .divider {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.card .dividerMob {
+  display: none;
+}
+.card .containerForButton {
+  display: flex;
+  justify-content: center;
+}
+.card .containerForButton button {
+  display: block;
+  margin-bottom: -32px;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  padding: 4px 0 0 0;
+  border: none;
+  outline: inherit;
+  cursor: pointer;
+  background-color: hsl(150, 100%, 66%);
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 100%;
+    margin: 15px;
+    padding: 40px 20px 0 20px;
+    border-radius: 10px;
+  }
+  .card .adviceNumber {
+    font-size: 11px;
+  }
+  .card .adviceText {
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  .card .divider {
+    display: none;
+  }
+  .card .dividerMob {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 31px;
+  }
+  .card .containerForButton button {
+    margin-bottom: -32px;
+  }
+}
+.background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: hsl(218, 23%, 16%);
+}
+
 /*# sourceMappingURL=main.css.map */
